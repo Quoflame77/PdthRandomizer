@@ -13,9 +13,7 @@ const Randomizer = () => {
     //     console.log(data["handgun"][1].name);
     // }, [])
 
-    useEffect(() => {
-
-    }, []);
+    useEffect(() => {}, []);
 
     const randomIndex = () => {
         return Math.floor(Math.random() * 3);
@@ -27,8 +25,8 @@ const Randomizer = () => {
                 <header className="w-full text-2xl text-center p-4">Randomizer</header>
 
                 <div className="h-fit w-full flex flex-col justify-center items-center gap-y-1">
-                    {Object.keys(data).map((key) => (
-                        <Item item={data[key][randomIndex()]} />
+                    {Object.keys(data).map((key, index) => (
+                        <Item key={index} item={data[key][randomIndex()]} />
                     ))}
                 </div>
             </main>
