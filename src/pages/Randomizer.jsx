@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { useState, useEffect, use } from "react";
+import { useState, useEffect } from "react";
 import jsonData from "../assets/data.json";
 import Item from "../components/Item";
 
@@ -12,8 +12,6 @@ const Randomizer = () => {
     //     console.log(data["handgun"][1]);
     //     console.log(data["handgun"][1].name);
     // }, [])
-
-    useEffect(() => {}, []);
 
     const randomIndex = () => {
         return Math.floor(Math.random() * 3);
