@@ -1,130 +1,130 @@
 {
-    "handgun": [
-        {
-            "name": "B9-S",
-            "image": "https://static.wikia.nocookie.net/payday/images/7/77/B9-S_upgrade.png/revision/latest/scale-to-width-down/290?cb=20131016072514"
-        },
-        {
-            "name": "Bronco .44",
-            "image": "https://static.wikia.nocookie.net/payday/images/a/ac/Bronco_44_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120417005507"
-        },
-        {
-            "name": "Crosskill .45",
-            "image": "https://static.wikia.nocookie.net/payday/images/9/96/Crosskill_45_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120417005549"
-        },
-        {
-            "name": "STRYK",
-            "image": "https://static.wikia.nocookie.net/payday/images/e/e6/STRYK_upgrade.jpg/revision/latest/scale-to-width-down/290?cb=20120808135956"
-        }
-    ],
-    "primary": [
-        {
-            "name": "AK",
-            "image": "https://static.wikia.nocookie.net/payday/images/c/cf/AK_upgrade.jpg/revision/latest/scale-to-width-down/290?cb=20120808141001"
-        },
-        {
-            "name": "AMCAR-4",
-            "image": "https://static.wikia.nocookie.net/payday/images/8/83/AMCAR-4_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114062954"
-        },
-        {
-            "name": "Brenner 21",
-            "image": "https://static.wikia.nocookie.net/payday/images/1/10/Brenner_21_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114062751"
-        },
-        {
-            "name": "M308",
-            "image": "https://static.wikia.nocookie.net/payday/images/f/f8/M308_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114062630"
-        },
-        {
-            "name": "Reinbeck",
-            "image": "https://static.wikia.nocookie.net/payday/images/3/32/Reinbeck_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114064552"
-        }
-    ],
-    "secondary": [
-        {
-            "name": "Compact-5",
-            "image": "https://static.wikia.nocookie.net/payday/images/e/ed/Compact-5_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114064804"
-        },
-        {
-            "name": "GL40",
-            "image": "https://static.wikia.nocookie.net/payday/images/8/88/GL40_upgrade.jpg/revision/latest/scale-to-width-down/290?cb=20120808141039"
-        },
-        {
-            "name": "Locomotive 12G",
-            "image": "https://static.wikia.nocookie.net/payday/images/b/bf/Locomotive_12_G_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114064507"
-        },
-        {
-            "name": "Mark 11",
-            "image": "https://static.wikia.nocookie.net/payday/images/8/85/Mark_11_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114064651"
-        }
-    ],
-    "deployable": [
-        {
-            "name": "ammo bag",
-            "image": "https://static.wikia.nocookie.net/payday/images/c/c5/Ammo_bag_upgrade.png/revision/latest/scale-to-width-down/250?cb=20120114021440"
-        },
-        {
-            "name": "doctor bag",
-            "image": "https://static.wikia.nocookie.net/payday/images/c/c1/Doctor_bag_upgrade.png/revision/latest/scale-to-width-down/250?cb=20120114020551"
-        },
-        {
-            "name": "sentry gun",
-            "image": "https://static.wikia.nocookie.net/payday/images/d/d2/Sentry_gun_upgrade.jpg/revision/latest/scale-to-width-down/250?cb=20120808141220"
-        },
-        {
-            "name": "trip mine",
-            "image": "https://static.wikia.nocookie.net/payday/images/c/c4/Trip_mine_upgrade.png/revision/latest/scale-to-width-down/250?cb=20130121102341"
-        }
-    ],
-    "equipment": [
-        {
-            "name": "extra cable ties",
-            "image": "https://static.wikia.nocookie.net/payday/images/e/e2/Cable_ties_upgrade.png/revision/latest/scale-to-width-down/153?cb=20120120150003"
-        },
-        {
-            "name": "extra start out ammo",
-            "image": "https://static.wikia.nocookie.net/payday/images/2/2f/Extra_ammo_upgrade.png/revision/latest/scale-to-width-down/153?cb=20120114021916"
-        },
-        {
-            "name": "thick skin",
-            "image": "https://static.wikia.nocookie.net/payday/images/9/90/Thick_skin_upgrade.png/revision/latest/scale-to-width-down/153?cb=20120114022602"
-        },
-        {
-            "name": "toolkit",
-            "image": "https://static.wikia.nocookie.net/payday/images/a/af/Toolkit_upgrade.jpg/revision/latest/scale-to-width-down/153?cb=20120808141149"
-        }
-    ],
-    "crew bonus": [
-        {
-            "name": "aggressor",
-            "image": "https://static.wikia.nocookie.net/payday/images/e/ee/Aggressor.png/revision/latest/scale-to-width-down/153?cb=20120114020325"
-        },
-        {
-            "name": "big game hunters",
-            "image": "https://static.wikia.nocookie.net/payday/images/8/8d/Big_game_hunters.jpg/revision/latest/scale-to-width-down/153?cb=20120808141302"
-        },
-        {
-            "name": "mr. nice guy",
-            "image": "https://static.wikia.nocookie.net/payday/images/0/04/Mr_Nice_Guy.png/revision/latest/scale-to-width-down/153?cb=20120114022238"
-        },
-        {
-            "name": "more blood to bleed",
-            "image": "https://static.wikia.nocookie.net/payday/images/6/65/More_blood_to_bleed.png/revision/latest/scale-to-width-down/153?cb=20120114022125"
-        },
-        {
-            "name": "noob lube",
-            "image": "https://static.wikia.nocookie.net/payday/images/0/04/Mr_Nice_Guy.png/revision/latest/scale-to-width-down/153?cb=20120114022238"
-        },
-        {
-            "name": "protector",
-            "image": "https://static.wikia.nocookie.net/payday/images/c/cc/Protector.png/revision/latest/scale-to-width-down/153?cb=20150919174254"
-        },
-        {
-            "name": "sharpshooters",
-            "image": "https://static.wikia.nocookie.net/payday/images/2/25/Sharpshooter.png/revision/latest/scale-to-width-down/153?cb=20120114022418"
-        },
-        {
-            "name": "speed reloaders",
-            "image": "https://static.wikia.nocookie.net/payday/images/5/58/Speed_reloaders.png/revision/latest/scale-to-width-down/153?cb=20120114022518"
-        }
-    ]
+  "handgun": [
+    {
+      "name": "B9-S",
+      "image": "https://static.wikia.nocookie.net/payday/images/7/77/B9-S_upgrade.png"
+    },
+    {
+      "name": "Bronco .44",
+      "image": "https://static.wikia.nocookie.net/payday/images/a/ac/Bronco_44_upgrade.png"
+    },
+    {
+      "name": "Crosskill .45",
+      "image": "https://static.wikia.nocookie.net/payday/images/9/96/Crosskill_45_upgrade.png"
+    },
+    {
+      "name": "STRYK",
+      "image": "https://static.wikia.nocookie.net/payday/images/e/e6/STRYK_upgrade.jpg"
+    }
+  ],
+  "primary": [
+    {
+      "name": "AK",
+      "image": "https://static.wikia.nocookie.net/payday/images/c/cf/AK_upgrade.jpg"
+    },
+    {
+      "name": "AMCAR-4",
+      "image": "https://static.wikia.nocookie.net/payday/images/8/83/AMCAR-4_upgrade.png"
+    },
+    {
+      "name": "Brenner 21",
+      "image": "https://static.wikia.nocookie.net/payday/images/1/10/Brenner_21_upgrade.png"
+    },
+    {
+      "name": "M308",
+      "image": "https://static.wikia.nocookie.net/payday/images/f/f8/M308_upgrade.png"
+    },
+    {
+      "name": "Reinbeck",
+      "image": "https://static.wikia.nocookie.net/payday/images/3/32/Reinbeck_upgrade.png"
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Compact-5",
+      "image": "https://static.wikia.nocookie.net/payday/images/e/ed/Compact-5_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114064804"
+    },
+    {
+      "name": "GL40",
+      "image": "https://static.wikia.nocookie.net/payday/images/8/88/GL40_upgrade.jpg/revision/latest/scale-to-width-down/290?cb=20120808141039"
+    },
+    {
+      "name": "Locomotive 12G",
+      "image": "https://static.wikia.nocookie.net/payday/images/b/bf/Locomotive_12_G_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114064507"
+    },
+    {
+      "name": "Mark 11",
+      "image": "https://static.wikia.nocookie.net/payday/images/8/85/Mark_11_upgrade.png/revision/latest/scale-to-width-down/290?cb=20120114064651"
+    }
+  ],
+  "deployable": [
+    {
+      "name": "ammo bag",
+      "image": "https://static.wikia.nocookie.net/payday/images/c/c5/Ammo_bag_upgrade.png/revision/latest/scale-to-width-down/250?cb=20120114021440"
+    },
+    {
+      "name": "doctor bag",
+      "image": "https://static.wikia.nocookie.net/payday/images/c/c1/Doctor_bag_upgrade.png/revision/latest/scale-to-width-down/250?cb=20120114020551"
+    },
+    {
+      "name": "sentry gun",
+      "image": "https://static.wikia.nocookie.net/payday/images/d/d2/Sentry_gun_upgrade.jpg/revision/latest/scale-to-width-down/250?cb=20120808141220"
+    },
+    {
+      "name": "trip mine",
+      "image": "https://static.wikia.nocookie.net/payday/images/c/c4/Trip_mine_upgrade.png/revision/latest/scale-to-width-down/250?cb=20130121102341"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "extra cable ties",
+      "image": "https://static.wikia.nocookie.net/payday/images/e/e2/Cable_ties_upgrade.png/revision/latest/scale-to-width-down/153?cb=20120120150003"
+    },
+    {
+      "name": "extra start out ammo",
+      "image": "https://static.wikia.nocookie.net/payday/images/2/2f/Extra_ammo_upgrade.png/revision/latest/scale-to-width-down/153?cb=20120114021916"
+    },
+    {
+      "name": "thick skin",
+      "image": "https://static.wikia.nocookie.net/payday/images/9/90/Thick_skin_upgrade.png/revision/latest/scale-to-width-down/153?cb=20120114022602"
+    },
+    {
+      "name": "toolkit",
+      "image": "https://static.wikia.nocookie.net/payday/images/a/af/Toolkit_upgrade.jpg/revision/latest/scale-to-width-down/153?cb=20120808141149"
+    }
+  ],
+  "crew bonus": [
+    {
+      "name": "aggressor",
+      "image": "https://static.wikia.nocookie.net/payday/images/e/ee/Aggressor.png/revision/latest/scale-to-width-down/153?cb=20120114020325"
+    },
+    {
+      "name": "big game hunters",
+      "image": "https://static.wikia.nocookie.net/payday/images/8/8d/Big_game_hunters.jpg/revision/latest/scale-to-width-down/153?cb=20120808141302"
+    },
+    {
+      "name": "mr. nice guy",
+      "image": "https://static.wikia.nocookie.net/payday/images/0/04/Mr_Nice_Guy.png/revision/latest/scale-to-width-down/153?cb=20120114022238"
+    },
+    {
+      "name": "more blood to bleed",
+      "image": "https://static.wikia.nocookie.net/payday/images/6/65/More_blood_to_bleed.png/revision/latest/scale-to-width-down/153?cb=20120114022125"
+    },
+    {
+      "name": "noob lube",
+      "image": "https://static.wikia.nocookie.net/payday/images/0/04/Mr_Nice_Guy.png/revision/latest/scale-to-width-down/153?cb=20120114022238"
+    },
+    {
+      "name": "protector",
+      "image": "https://static.wikia.nocookie.net/payday/images/c/cc/Protector.png/revision/latest/scale-to-width-down/153?cb=20150919174254"
+    },
+    {
+      "name": "sharpshooters",
+      "image": "https://static.wikia.nocookie.net/payday/images/2/25/Sharpshooter.png/revision/latest/scale-to-width-down/153?cb=20120114022418"
+    },
+    {
+      "name": "speed reloaders",
+      "image": "https://static.wikia.nocookie.net/payday/images/5/58/Speed_reloaders.png/revision/latest/scale-to-width-down/153?cb=20120114022518"
+    }
+  ]
 }
