@@ -1,9 +1,8 @@
 import Navbar from "./components/Navbar";
+import Randomizer from "./pages/Randomizer";
 import { Routes, Route } from "react-router";
-import Home from "./pages/Home";
 import { lazy } from "react";
 
-const Randomizer = lazy(() => import("./pages/Randomizer"));
 const About = lazy(() => import("./pages/About"));
 
 function App() {
@@ -11,8 +10,7 @@ function App() {
         <>
             <Navbar />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Randomizer" element={<Randomizer />} />
+                <Route path="/" element={<Randomizer />} />
                 <Route path="/About" element={<About />} />
             </Routes>
         </>

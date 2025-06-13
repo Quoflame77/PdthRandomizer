@@ -16,20 +16,20 @@ const Item = (props) => {
     }, [props]);
 
     useEffect(() => {
-        if (imageURL) 
-            imgRef.current.src = imageURL;
-        
+        if (imageURL) imgRef.current.src = imageURL;
     }, [imageURL]);
 
     return (
         <>
-            <div className="h-50 w-52 p-3 font-orbitron bg-neutral-900 text-white flex flex-col justify-center items-center gap-1">
+            <div className="h-50 w-68 p-3 font-orbitron bg-item backdrop-blur-xs text-white flex flex-col justify-center items-center gap-1 xl:h-70 xl:w-80">
                 <img
                     ref={imgRef}
                     alt={`${props.item.name} image`}
-                    className="h-40 w-40 bg-fixed bg-cover bg-no-repeat"
+                    className="h-30 w-45 bg-fixed bg-cover bg-no-repeat xl:h-50 xl:w-55 select-none hover:shadow-lg hover:shadow-orange-400 duration-300 ease-in-out"
                 />
-                <span className="h-10 w-full text-lg text-center p-1">{props.item.name}</span>
+                <span className="h-10 w-full text-lg text-center p-1 xl:text-2xl select-none hover:text-orange-400 hover:font-bold duration-500 ease-in-out">
+                    {props.item.name}
+                </span>
             </div>
         </>
     );
