@@ -23,7 +23,7 @@ const Randomizer = () => {
 
     return (
         <>
-            <main className="font-orbitron lg:h-screen w-full flex flex-col items-center bg-[url(https://img.goodfon.com/original/1920x1080/8/c3/payday-the-heist-bandity.jpg)] bg-cover bg-center bg-fixed bg-no-repeat md:justify-center">
+            <div className="box-border font-orbitron w-full flex flex-col items-center  md:justify-center">
                 <header className="h-20 w-70 text-3xl text-center flex justify-center items-center p-4 text-white font-bolder select-none lg:text-3xl lg:mb-6 hover:animate-ping">
                     Randomizer
                 </header>
@@ -42,7 +42,7 @@ const Randomizer = () => {
                         {visibleData.map((item, index) => (index >= 3 ? <Item key={index} item={item} /> : ""))}
                     </div>
                 </div>
-            </main>
+            </div>
         </>
     );
 };
