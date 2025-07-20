@@ -4,6 +4,7 @@
     --font-orbitron: "Orbitron", sans-serif;
     --color-item: rgba(0, 0, 0, 0.65);
     --animate-open-menu: open-menu 0.5s ease-in-out forwards;
+    --animate-rgb-text-color-change: color-change 3s ease-in-out infinite;
 
     @keyframes open-menu {
         0% {
@@ -14,6 +15,21 @@
         }
         100% {
             transform: scaleY(1);
+        }
+    }
+
+    @keyframes color-change {
+        0% {
+            color: red;
+        }
+        50% {
+            color: blue;
+        }
+        90% {
+            color: green;
+        }
+        100% {
+            color: red;
         }
     }
 }

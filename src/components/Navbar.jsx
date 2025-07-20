@@ -16,7 +16,9 @@ const Navbar = () => {
             <nav className="h-fit w-full bg-black text-white font-orbitron fixed text-lg py-2 z-10 flex flex-wrap items-center justify-between px-4">
                 <div className="flex items-center space-x-3 select-none">
                     <GiPerspectiveDiceSixFacesRandom size={40} />
-                    <span>PDTH Randomizer</span>
+                    <span className="font-bold">
+                        PD<span className="text-red-500">TH</span> Randomizer
+                    </span>
                 </div>
                 <button
                     type="button"
@@ -25,8 +27,8 @@ const Navbar = () => {
                 >
                     <RxHamburgerMenu size={40} />
                 </button>
-                <div className="hidden w-full origin-top animate-open-menu" ref={menuRef}>
-                    <ul className="list-none flex flex-col items-center">
+                <div className="hidden bg-gray-950 w-full origin-top animate-open-menu z-10" ref={menuRef}>
+                    <ul className="list-none flex flex-col items-center gap-2">
                         <li className="w-full flex justify-end items-center">
                             <Link to="/" className="block py-1 px-2 hover:bg-orange-400 hover:text-black rounded-sm">
                                 Randomizer

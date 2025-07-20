@@ -95,35 +95,35 @@
     ],
     "crew bonus": [
         {
-            "name": "aggressor",
+            "name": "Aggressor",
             "image": "https://static.wikia.nocookie.net/payday/images/e/ee/Aggressor.png"
         },
         {
-            "name": "big game hunters",
+            "name": "Big game hunters",
             "image": "https://static.wikia.nocookie.net/payday/images/8/8d/Big_game_hunters.jpg"
         },
         {
-            "name": "mr. nice guy",
+            "name": "Mr. nice guy",
             "image": "https://static.wikia.nocookie.net/payday/images/0/04/Mr_Nice_Guy.png"
         },
         {
-            "name": "more blood to bleed",
+            "name": "More blood to bleed",
             "image": "https://static.wikia.nocookie.net/payday/images/6/65/More_blood_to_bleed.png"
         },
         {
-            "name": "noob lube",
+            "name": "Noob lube",
             "image": "https://static.wikia.nocookie.net/payday/images/0/04/Mr_Nice_Guy.png"
         },
         {
-            "name": "protector",
+            "name": "Protector",
             "image": "https://static.wikia.nocookie.net/payday/images/c/cc/Protector.png"
         },
         {
-            "name": "sharpshooters",
+            "name": "Sharpshooters",
             "image": "https://static.wikia.nocookie.net/payday/images/2/25/Sharpshooter.png"
         },
         {
-            "name": "speed reloaders",
+            "name": "Speed reloaders",
             "image": "https://static.wikia.nocookie.net/payday/images/5/58/Speed_reloaders.png"
         }
     ]

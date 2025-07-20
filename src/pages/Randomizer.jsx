@@ -7,6 +7,10 @@ const Randomizer = () => {
     const [data, setData] = useState(jsonData);
     const [visibleData, setVisibleData] = useState([]);
 
+    const randomIndex = () => {
+        return Math.floor(Math.random() * 3);
+    };
+
     const randomize = () => {
         const selected = Object.keys(data).map((key, index) => data[key][randomIndex()]);
         setVisibleData(selected);
@@ -17,14 +21,10 @@ const Randomizer = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    const randomIndex = () => {
-        return Math.floor(Math.random() * 3);
-    };
-
     return (
         <>
-            <div className="box-border font-orbitron w-full flex flex-col items-center  md:justify-center">
-                <header className="h-20 w-70 text-3xl text-center flex justify-center items-center p-4 text-white font-bolder select-none lg:text-3xl lg:mb-6 hover:animate-ping">
+            <div className="font-orbitron w-full flex flex-col items-center  md:justify-center">
+                <header className="h-20 w-70 text-3xl text-center flex justify-center items-center p-4 text-white font-bolder select-none lg:text-3xl lg:mb-6 animate-ping">
                     Randomizer
                 </header>
                 <button
