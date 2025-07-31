@@ -19,7 +19,7 @@ const About = () => {
                         className="flex justify-start place-items-center gap-3 text-blue-600 font-extrabold hover:decoration-2 hover:underline"
                     >
                         <IoMdBulb />
-                        Idea base on
+                        Idea based on
                     </a>
                     <a
                         href="https://payday.fandom.com/wiki/Upgrades#Gallery"

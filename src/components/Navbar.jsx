@@ -6,14 +6,20 @@ import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
 const Navbar = () => {
     const menuRef = useRef(null);
 
-    const changeMenuVisibility = () =>
-        menuRef.current.classList.contains("hidden")
-            ? menuRef.current.classList.replace("hidden", "block")
-            : menuRef.current.classList.replace("block", "hidden");
-
+    const changeMenuVisibility = () => {
+        if (menuRef.current.classList.contains("hidden")) {
+            menuRef.current.classList.replace("animate-close-menu", "animate-open-menu");
+            menuRef.current.classList.replace("hidden", "flex");
+        } else {
+            menuRef.current.classList.replace("animate-open-menu", "animate-close-menu");
+            setTimeout(() => {
+                menuRef.current.classList.replace("flex", "hidden");
+            }, 500);
+        }
+    };
     return (
         <>
-            <nav className="h-fit w-full bg-black text-white font-orbitron fixed text-lg py-2 z-10 flex flex-wrap items-center justify-between px-4">
+            <nav className="h-15 w-full bg-black text-white font-orbitron fixed text-lg py-2 z-10 flex flex-wrap items-center justify-between px-4">
                 <div className="flex items-center space-x-3 select-none">
                     <GiPerspectiveDiceSixFacesRandom size={40} />
                     <span className="font-bold">
@@ -27,23 +33,22 @@ const Navbar = () => {
                 >
                     <RxHamburgerMenu size={40} />
                 </button>
-                <div className="hidden bg-gray-950 w-full origin-top animate-open-menu z-10" ref={menuRef}>
-                    <ul className="list-none flex flex-col items-center gap-2">
-                        <li className="w-full flex justify-end items-center">
-                            <Link to="/" className="block py-1 px-2 hover:bg-orange-400 hover:text-black rounded-sm">
-                                Randomizer
-                            </Link>
-                        </li>
-                        <li className="w-full flex justify-end items-center">
-                            <Link
-                                to="/About"
-                                className=" block py-1 px-2 hover:bg-orange-400 hover:text-black rounded-sm"
-                            >
-                                About
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+
+                <ul
+                    className="fixed top-15 left-0 list-none flex-col items-center gap-2 px-2 hidden bg-gray-950 w-full origin-top animate-open-menu z-10"
+                    ref={menuRef}
+                >
+                    <li className="w-full flex justify-end items-center">
+                        <Link to="/" className="block py-1 px-2 hover:bg-orange-400 hover:text-black rounded-sm">
+                            Randomizer
+                        </Link>
+                    </li>
+                    <li className="w-full flex justify-end items-center">
+                        <Link to="/About" className=" block py-1 px-2 hover:bg-orange-400 hover:text-black rounded-sm">
+                            About
+                        </Link>
+                    </li>
+                </ul>
             </nav>
         </>
     );
