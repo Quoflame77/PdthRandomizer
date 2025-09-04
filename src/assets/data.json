@@ -59,37 +59,37 @@
     ],
     "deployable": [
         {
-            "name": "ammo bag",
+            "name": "Ammo bag",
             "image": "https://static.wikia.nocookie.net/payday/images/c/c5/Ammo_bag_upgrade.png"
         },
         {
-            "name": "doctor bag",
+            "name": "Doctor bag",
             "image": "https://static.wikia.nocookie.net/payday/images/c/c1/Doctor_bag_upgrade.png"
         },
         {
-            "name": "sentry gun",
+            "name": "Sentry gun",
             "image": "https://static.wikia.nocookie.net/payday/images/d/d2/Sentry_gun_upgrade.jpg"
         },
         {
-            "name": "trip mine",
+            "name": "Trip mine",
             "image": "https://static.wikia.nocookie.net/payday/images/c/c4/Trip_mine_upgrade.png"
         }
     ],
     "equipment": [
         {
-            "name": "extra cable ties",
+            "name": "Extra cable ties",
             "image": "https://static.wikia.nocookie.net/payday/images/e/e2/Cable_ties_upgrade.png"
         },
         {
-            "name": "extra start out ammo",
+            "name": "Extra start out ammo",
             "image": "https://static.wikia.nocookie.net/payday/images/2/2f/Extra_ammo_upgrade.png"
         },
         {
-            "name": "thick skin",
+            "name": "Thick skin",
             "image": "https://static.wikia.nocookie.net/payday/images/9/90/Thick_skin_upgrade.png"
         },
         {
-            "name": "toolkit",
+            "name": "Toolkit",
             "image": "https://static.wikia.nocookie.net/payday/images/a/af/Toolkit_upgrade.jpg"
         }
     ],

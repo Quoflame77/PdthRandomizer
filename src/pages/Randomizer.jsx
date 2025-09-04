@@ -7,12 +7,12 @@ const Randomizer = () => {
     const [data, setData] = useState(jsonData);
     const [visibleData, setVisibleData] = useState([]);
 
-    const randomIndex = () => {
-        return Math.floor(Math.random() * 3);
+    const randomIndex = (max) => {
+        return Math.floor(Math.random() * max);
     };
 
     const randomize = () => {
-        const selected = Object.keys(data).map((key, index) => data[key][randomIndex()]);
+        const selected = Object.keys(data).map((key, index) => data[key][randomIndex(data[key].length)]);
         setVisibleData(selected);
     };
 
@@ -24,13 +24,13 @@ const Randomizer = () => {
     return (
         <>
             <div className="font-orbitron w-full flex flex-col items-center  md:justify-center">
-                <header className="h-20 w-70 text-3xl text-center flex justify-center items-center p-4 text-white font-bolder select-none lg:text-3xl lg:mb-6 animate-ping">
+                <header className="h-20 w-70 text-xl text-center flex justify-center items-center p-4 text-white font-bolder select-none lg:text-3xl lg:mb-6">
                     Randomizer
                 </header>
                 <button
                     type="button"
                     onClick={randomize}
-                    className="h-12 w-50 bg-orange-400 px-1 py-2 text-lg m-2.5 mb-5 rounded-xs font-medium select-none hover:scale-125 active:bg-black active:text-white active:shadow-orange-400 active:shadow-md duration-300 ease-in-out"
+                    className="h-12 w-50 bg-orange-400 px-1 py-2 text-lg m-2.5 mb-9 rounded-xs font-medium select-none hover:scale-125 active:bg-black active:text-white active:shadow-orange-400 active:shadow-md duration-300 ease-in-out"
                 >
                     Re-Randomize
                 </button>

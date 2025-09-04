@@ -25,9 +25,9 @@ const Item = (props) => {
                 <img
                     ref={imgRef}
                     alt={`${props.item.name} image`}
-                    className="h-30 w-45 bg-fixed bg-cover bg-no-repeat xl:h-50 xl:w-55 select-none hover:shadow-lg hover:shadow-orange-400 duration-300 ease-in-out"
+                    className="h-30 w-45 bg-fixed bg-cover bg-no-repeat xl:h-50 xl:w-55 select-none hover:shadow-lg hover:shadow-orange-400 hover:duration-300 hover:ease-in-out"
                 />
-                <span className="h-10 w-full text-lg text-center p-1 xl:text-2xl select-none hover:text-orange-400 hover:font-bold duration-500 ease-in-out">
+                <span className="h-10 w-full text-lg text-center p-1 xl:text-2xl select-none hover:text-orange-400 hover:font-bold hover:duration-500 hover:ease-in-out">
                     {props.item.name}
                 </span>
             </div>
