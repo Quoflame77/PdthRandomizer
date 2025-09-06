@@ -6,6 +6,8 @@
     --animate-open-menu: open-menu 0.5s ease-in-out forwards;
     --animate-close-menu: close-menu 0.5s ease-in-out forwards;
     --animate-rgb-text-color-change: color-change 3s ease-in-out infinite;
+    --animate-highlight-text: highlight-text 2s ease-in-out forwards;
+    --animate-glow-effect: glow-effect 2s ease-in-out forwards;
 
     @keyframes open-menu {
         0% {
@@ -40,6 +42,19 @@
         }
         100% {
             color: red;
+        }
+    }
+
+    @keyframes highlight-text {
+        0% {
+            color: var(--color-orange-400);
+            font-weight: var(--font-weight-bold);
+        }
+    }
+
+    @keyframes glow-effect {
+        0% {
+            box-shadow: 0 10px 15px -3px var(--color-orange-400), 0 4px 6px -4px rgb(0 0 0 / 0.1);
         }
     }
 }
